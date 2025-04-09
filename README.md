@@ -80,9 +80,17 @@ Juego clásico del ahorcado con lógica personalizada. El usuario debe adivinar 
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/portafolio-js.git
+git clone https://github.com/Rafalopezdel/playJavaScriptApp.git
+```
 
-2. Ejecuta el archivo index.html de la app.
+2. Clona este repositorio:Ejecuta el archivo index.html de la app.
+
+
+## 🌍 Sitio en vivo
+
+Puedes ver la aplicación en línea en el siguiente enlace:  
+🔗 [https://rafalopezdel.github.io/playJavaScriptApp/](https://rafalopezdel.github.io/playJavaScriptApp/)
+
 
 ✨ Autor
 Desarrollado por [Rafael López Delgado]
