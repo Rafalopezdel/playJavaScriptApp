@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap);
+
+
+.sectionTareas {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-color: var(--diabled);
+}
+
+.sectionTareas:first-letter {
+    text-transform: capitalize;
+}
+
+.sectionTareas .roundBorder {
+    border-radius: 5px;
+}
+
+.sectionTareas .list {
+    margin: 25px auto;
+    padding: 25px;
+    background-color: var(--light);
+    width: 80%;
+    max-width: 350px;
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+}
+
+.sectionTareas .date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectionTareas .dateRight {
+    display: flex;
+    align-items: center;
+}
+
+#dateNumber {
+    font-size: 50px;
+}
+
+#dateText {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#dateMonth,
+#dateNumber,
+#dateText  {
+    font-weight: bold;
+}
+
+#dateMonth,
+#dateYear {
+    margin-left: 7px;
+    font-size: 20px;
+}
+
+.sectionTareas form {
+    margin: 20px 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 35px auto;
+    grid-column-gap: 15px;
+}
+
+.sectionTareas input {
+    border: none;
+    padding-left: 10px;
+    background-color: var(--diabled);
+}
+
+.sectionTareas input:focus {
+    outline: none;
+}
+
+.sectionTareas .addTaskButton,
+.sectionTareas .orderButton {
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sectionTareas .addTaskButton {
+    height: 35px;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: var(--diabled);
+}
+
+.sectionTareas .orderButton {
+    background-color: var(--secondary);
+    color: var(--light);
+}
+
+.sectionTareas .task {
+    background-color: var(--primary);
+    padding: 15px;
+    margin-top: 15px;
+    color: var(--light);
+    cursor: pointer;
+}
+
+.sectionTareas .done {
+    background-color: var(--diabled);
+    text-decoration: line-through;
+    color: var(--dark);
+}
