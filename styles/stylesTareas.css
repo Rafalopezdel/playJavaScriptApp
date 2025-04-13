@@ -60,7 +60,7 @@
     margin: 20px 0;
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: auto 35px auto;
+    grid-template-columns: 45% 35px 25%;
     grid-column-gap: 15px;
 }
 
